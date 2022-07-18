@@ -1,0 +1,583 @@
+@media (min-width: 460px) {
+  .card {
+    padding-left: 100px;
+    display: inline;
+  }
+}
+@media (min-width: 856px) {
+  .galeria1 {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(300px 300px 300px);
+    grid-auto-rows: minmax(200px, auto);
+    gap: 5px;
+  }
+  .galeria1 .img1, .galeria1 .img9, .galeria1 .img8, .galeria1 .img7, .galeria1 .img6, .galeria1 .img5, .galeria1 .img4, .galeria1 .img3, .galeria1 .img2 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    object-fit: cover;
+  }
+  .galeria1 .img1:hover, .galeria1 .img9:hover, .galeria1 .img8:hover, .galeria1 .img7:hover, .galeria1 .img6:hover, .galeria1 .img5:hover, .galeria1 .img4:hover, .galeria1 .img3:hover, .galeria1 .img2:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img2 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    object-fit: cover;
+  }
+  .galeria1 .img2:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img3 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    object-fit: cover;
+  }
+  .galeria1 .img3:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img4 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    object-fit: cover;
+  }
+  .galeria1 .img4:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img5 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    object-fit: cover;
+  }
+  .galeria1 .img5:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img6 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    object-fit: cover;
+  }
+  .galeria1 .img6:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img7 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    object-fit: cover;
+  }
+  .galeria1 .img7:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img8 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    object-fit: cover;
+  }
+  .galeria1 .img8:hover {
+    background-color: aqua;
+    filter: drop-shadow(5);
+    transform: scale(1.04);
+  }
+  .galeria1 .img9 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    object-fit: cover;
+  }
+  .galeria1 .img9:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(2.04);
+  }
+}
+@media (min-width: 900px) {
+  .card {
+    display: inline-block;
+  }
+  .galeria1 {
+    display: grid;
+    grid-template-columns: repeat(300px 300px 300px);
+    grid-auto-rows: minmax(200px, auto);
+    gap: 8px;
+  }
+  .galeria1 .img1, .galeria1 .img9, .galeria1 .img8, .galeria1 .img7, .galeria1 .img6, .galeria1 .img5, .galeria1 .img4, .galeria1 .img3, .galeria1 .img2 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    object-fit: cover;
+  }
+  .galeria1 .img1:hover, .galeria1 .img9:hover, .galeria1 .img8:hover, .galeria1 .img7:hover, .galeria1 .img6:hover, .galeria1 .img5:hover, .galeria1 .img4:hover, .galeria1 .img3:hover, .galeria1 .img2:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img2 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    object-fit: cover;
+  }
+  .galeria1 .img2:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img3 {
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    object-fit: cover;
+  }
+  .galeria1 .img3:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img4 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    object-fit: cover;
+  }
+  .galeria1 .img4:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img5 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    object-fit: cover;
+  }
+  .galeria1 .img5:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img6 {
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    object-fit: cover;
+  }
+  .galeria1 .img6:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img7 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    object-fit: cover;
+  }
+  .galeria1 .img7:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img8 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    object-fit: cover;
+  }
+  .galeria1 .img8:hover {
+    background-color: aqua;
+    filter: drop-shadow(5);
+    transform: scale(1.04);
+  }
+  .galeria1 .img9 {
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    object-fit: cover;
+  }
+  .galeria1 .img9:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(2.04);
+  }
+}
+body {
+  background-color: rgb(61, 61, 143);
+}
+
+.header {
+  background-color: black;
+  border-bottom: solid 2px rgb(228, 193, 193);
+  box-shadow: 40px;
+}
+.header h4 {
+  color: rgb(200, 104, 230);
+}
+
+.section1 {
+  width: 100%;
+  height: 15rem;
+  background-image: url(../images/principio.png);
+  opacity: 75%;
+}
+.section1 .h1 {
+  color: rgb(200, 104, 230);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sectionosotros p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*---------GALERIA DE PRODUCTOS-------------*/
+.galeria1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 5px;
+}
+.galeria1 .img1, .galeria1 .img9, .galeria1 .img8, .galeria1 .img7, .galeria1 .img6, .galeria1 .img5, .galeria1 .img4, .galeria1 .img3, .galeria1 .img2 {
+  border: solid black 3px;
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  object-fit: cover;
+}
+.galeria1 .img1:hover, .galeria1 .img9:hover, .galeria1 .img8:hover, .galeria1 .img7:hover, .galeria1 .img6:hover, .galeria1 .img5:hover, .galeria1 .img4:hover, .galeria1 .img3:hover, .galeria1 .img2:hover {
+  background-color: aqua;
+  filter: color(rgb(61, 61, 143));
+  transform: scale(1.04);
+}
+.galeria1 .img2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.galeria1 .img3 {
+  padding-left: 8px !important;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.galeria1 .img4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.galeria1 .img5 {
+  padding-left: 8px !important;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.galeria1 .img6 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.galeria1 .img7 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.galeria1 .img8 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.galeria1 .img9 {
+  grid-column: 1/3;
+  grid-row: 5/6;
+}
+
+.text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+}
+
+.cursos {
+  width: auto;
+  height: 25rem;
+  padding-top: 10rem;
+  background-image: url(../images/cursos_seminarios_1.jpg);
+  opacity: 75%;
+}
+
+/*------------------TARJETAS------------------------*/
+.card-body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: rgb(122, 13, 122) 2px;
+}
+.card-title {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.card-btn {
+  background-color: rgb(89, 4, 122) !important;
+  color: cornsilk;
+  border-color: aquamarine;
+}
+.card-btn:hover {
+  background-color: aquamarine !important;
+  color: black;
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
+/*-------------------------FORMULARIO----------------------*/
+.formulario {
+  background-color: rgb(118, 118, 230);
+  color: white;
+  border: solid rgb(61, 3, 61) 2px;
+}
+.formulario .btn-form {
+  background-color: blueviolet;
+  border-color: bisque;
+  margin-left: 50px;
+}
+
+/*-----------------------------FOOTER---------------------------*/
+.footer {
+  background-color: black;
+  border-top: solid rgb(73, 53, 53) 2px;
+}
+
+/*--------------------MEDIA---------------------------------*/
+@media (min-width: 856px) {
+  .galeria1 {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(300px 300px 300px);
+    grid-auto-rows: minmax(200px, auto);
+    gap: 5px;
+  }
+  .galeria1 .img1, .galeria1 .img2, .galeria1 .img3, .galeria1 .img4, .galeria1 .img5, .galeria1 .img6, .galeria1 .img7, .galeria1 .img8, .galeria1 .img9 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    object-fit: cover;
+  }
+  .galeria1 .img1:hover, .galeria1 .img2:hover, .galeria1 .img3:hover, .galeria1 .img4:hover, .galeria1 .img5:hover, .galeria1 .img6:hover, .galeria1 .img7:hover, .galeria1 .img8:hover, .galeria1 .img9:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img2 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    object-fit: cover;
+  }
+  .galeria1 .img2:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img3 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    object-fit: cover;
+  }
+  .galeria1 .img3:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img4 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    object-fit: cover;
+  }
+  .galeria1 .img4:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img5 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    object-fit: cover;
+  }
+  .galeria1 .img5:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img6 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    object-fit: cover;
+  }
+  .galeria1 .img6:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img7 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    object-fit: cover;
+  }
+  .galeria1 .img7:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img8 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    object-fit: cover;
+  }
+  .galeria1 .img8:hover {
+    background-color: aqua;
+    filter: drop-shadow(5);
+    transform: scale(1.04);
+  }
+  .galeria1 .img9 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    object-fit: cover;
+  }
+  .galeria1 .img9:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(2.04);
+  }
+}
+@media (min-width: 900px) {
+  .galeria1 {
+    display: grid;
+    grid-template-columns: repeat(300px 300px 300px);
+    grid-auto-rows: minmax(200px, auto);
+    gap: 10px;
+  }
+  .galeria1 .img1, .galeria1 .img2, .galeria1 .img3, .galeria1 .img4, .galeria1 .img5, .galeria1 .img6, .galeria1 .img7, .galeria1 .img8, .galeria1 .img9 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    object-fit: cover;
+  }
+  .galeria1 .img1:hover, .galeria1 .img2:hover, .galeria1 .img3:hover, .galeria1 .img4:hover, .galeria1 .img5:hover, .galeria1 .img6:hover, .galeria1 .img7:hover, .galeria1 .img8:hover, .galeria1 .img9:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img2 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    object-fit: cover;
+  }
+  .galeria1 .img2:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img3 {
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    object-fit: cover;
+  }
+  .galeria1 .img3:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img4 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    object-fit: cover;
+  }
+  .galeria1 .img4:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img5 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    object-fit: cover;
+  }
+  .galeria1 .img5:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img6 {
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    object-fit: cover;
+  }
+  .galeria1 .img6:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img7 {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    object-fit: cover;
+  }
+  .galeria1 .img7:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(1.04);
+  }
+  .galeria1 .img8 {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    object-fit: cover;
+  }
+  .galeria1 .img8:hover {
+    background-color: aqua;
+    filter: drop-shadow(5);
+    transform: scale(1.04);
+  }
+  .galeria1 .img9 {
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    object-fit: cover;
+  }
+  .galeria1 .img9:hover {
+    background-color: aqua;
+    filter: opacity(2);
+    transform: scale(2.04);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
