@@ -1,9 +1,3 @@
-@media (min-width: 460px) {
-  .card {
-    padding-left: 100px;
-    display: inline;
-  }
-}
 @media (min-width: 856px) {
   .galeria1 {
     padding: 5px;
@@ -222,8 +216,14 @@
     transform: scale(2.04);
   }
 }
-body {
-  background-color: rgb(61, 61, 143);
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fondo {
+  background-color: rgba(122, 54, 199, 0.596);
 }
 
 .header {
@@ -268,7 +268,7 @@ body {
 }
 .galeria1 .img1:hover, .galeria1 .img9:hover, .galeria1 .img8:hover, .galeria1 .img7:hover, .galeria1 .img6:hover, .galeria1 .img5:hover, .galeria1 .img4:hover, .galeria1 .img3:hover, .galeria1 .img2:hover {
   background-color: aqua;
-  filter: color(rgb(61, 61, 143));
+  filter: color(rgba(122, 54, 199, 0.596));
   transform: scale(1.04);
 }
 .galeria1 .img2 {
@@ -307,6 +307,7 @@ body {
 }
 
 .text {
+  color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -326,8 +327,7 @@ h1 {
 /*------------------TARJETAS------------------------*/
 .card-body {
   background-color: black;
-  color: rgb(255, 255, 255);
-  border: rgb(122, 13, 122) 2px;
+  border: rgb(122, 13, 122) 3px;
 }
 .card-title {
   color: white;
@@ -340,7 +340,7 @@ h1 {
 }
 .card-btn:hover {
   background-color: aquamarine !important;
-  color: black;
+  color: rgb(182, 81, 81);
   filter: opacity(0.9);
   transform: scale(1.04);
 }
@@ -578,6 +578,16 @@ h1 {
     filter: opacity(2);
     transform: scale(2.04);
   }
+}
+@media (max-width: 1400px) {
+  .iconos {
+    font-size: 20px !important;
+  }
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

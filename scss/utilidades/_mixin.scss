@@ -1,0 +1,10 @@
+@mixin d-flex($justify,$align){
+    display: flex;
+
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.btn{
+    @include d-flex(space-around, center );
+}

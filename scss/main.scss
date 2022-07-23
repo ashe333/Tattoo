@@ -2,9 +2,9 @@
 @import "utilidades/variables";
 @import "index";
 @import "utilidades/map";
-@import "utilidades/botones";
+@import "utilidades/mixin";
 
-body {
+.fondo {
     background-color: map-get($colores, fondo2);
 }
 
@@ -118,6 +118,7 @@ body {
     }
 
 .text {
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -140,8 +141,8 @@ h1 {
 .card {
     &-body {
         background-color: black;
-        color: rgb(255, 255, 255);
-        border: rgb(122, 13, 122) 2px;
+       
+        border: rgb(122, 13, 122) 3px;
     }
 
     &-title {
@@ -153,10 +154,9 @@ h1 {
         background-color: map-get($colores, secundario) !important;
         color: cornsilk;
         border-color: aquamarine;
-
         &:hover {
             background-color: aquamarine !important;
-            color: black;
+            color: rgb(182, 81, 81);
             filter: opacity(0.9);
             transform: scale(1.04);
         }
@@ -184,7 +184,6 @@ h1 {
 }
 
 /*--------------------MEDIA---------------------------------*/
-
 
 @media (min-width:856px) {
     .galeria1 {
@@ -450,4 +449,21 @@ h1 {
     
     
     }
+}
+
+@media(max-width:1400px){
+    .iconos{
+        font-size: 20px !important;
+    } 
+}
+
+@mixin d-flex($justify,$align){
+    display: flex;
+
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.btn{
+    @include d-flex(space-around, center );
 }
